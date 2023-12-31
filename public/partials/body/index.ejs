@@ -1,0 +1,121 @@
+<main>
+  <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img
+          src="/src/assets/images/avatar-1.png"
+          alt="Richard hanrick"
+          width="80"
+        />
+      </figure>
+      <div class="info-content">
+        <h1 class="name" title="Name">Wahid Rhamadan</h1>
+        <p class="title">Electronic engineering</p>
+      </div>
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Info</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+    </div>
+    <div class="sidebar-info_more">
+      <div class="separator"></div>
+      <ul class="contacts-list">
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="mail-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Email</p>
+            <a href="mailto:neothing@proton.me" class="contact-link"
+              >neothing@proton.me</a
+            >
+          </div>
+        </li>
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="phone-portrait-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Phone</p>
+            <a href="tel:+882003597627" class="contact-link"
+              >+62 882-0035-97627</a
+            >
+          </div>
+        </li>
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="calendar-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Birthday</p>
+            <time datetime="1982-06-23">18/9/2023</time>
+          </div>
+        </li>
+        <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="location-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Location</p>
+            <address>Daerah Istimewa Yogyakarta</address>
+          </div>
+        </li>
+      </ul>
+      <div class="separator"></div>
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
+        </li>
+        <li class="social-item">
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+
+  <div class="main-content">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <button class="navbar-link active" data-nav-link>About</button>
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Portfolio</button>
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Blog</button>
+        </li>
+        <li class="navbar-item">
+          <button class="navbar-link" data-nav-link>Contact</button>
+        </li>
+      </ul>
+    </nav>
+
+    <%- include('../components/about') %>
+
+    <%- include('../components/portfolio'); %>
+
+    <%- include('../components/blog'); %>
+
+    <%- include('../components/contact') %>
+
+  </div>
+</main>
+
+<script src="/lib/particles.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/script.index.js"></script>
+
+
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
