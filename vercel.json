@@ -7,8 +7,8 @@
         "dest": "/"
       },
       {
-        "src": "/sebelum",
-        "dest": "/sebelum"
+        "src": "/public",
+        "dest": "/public"
       }
       
     ]
