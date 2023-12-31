@@ -5,11 +5,7 @@
       {
         "src": "/{.*}",
         "dest": "/"
-      },
-      {
-        "src": "/public",
-        "dest": "/public"
       }
-      
-    ]
+    ],
+    "public": true
 }
